@@ -3,18 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Login de usuário</title>
+    <link rel="stylesheet" href="css/estilo.css">
   </head>
   <body>
-    <img height="160" src="https://thumbs.dreamstime.com/b/%C3%ADcone-do-usu%C3%A1rio-46707697.jpg" alt="">
-    <form class="" action="" method="post">
-      <label>Usuário ou email:</label><br>
-      <input type="email" name="email" value="" placeholder="Digite seu email"><br>
-      <br>
-      <label>Senha:</label><br>
-      <input type="password" name="senha" value="" placeholder="Máximo 8 caracteres" maxlength="8"><br>
-      <br>
-      <input type="submit" value="Entrar"><br>
-    </form>
-    <a href="#">Esqueceu a senha?</a><br>
+
+    <div class="login">
+      <img height="160" src="https://achieve.lausd.net/cms/lib/CA01000043/Centricity/domain/779/welligentbuttons/login.png" alt="">
+      <form class="" action="" method="post">
+        <label>Email de usuário:</label><br>
+        <input class="campo" type="email" name="email" value="" placeholder="Digite seu email"><br>
+        <label>Senha:</label><br>
+        <input class="campo" type="password" name="senha" value="" placeholder="Máximo 8 caracteres" maxlength="8"><br>
+        <input class="botao" type="submit" value="Entrar"><br>
+      </form>
+      <a class="esqueceu" href="#">Esqueceu a senha?</a><br>
+    </div>
+
   </body>
 </html>

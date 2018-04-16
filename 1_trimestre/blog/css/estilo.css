@@ -1,0 +1,46 @@
+*{
+
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #DADADA;
+
+}
+
+.login{
+  border: solid 1px #AFAFAF;
+  width: 300px;
+  margin: 10px auto;
+  padding: 50px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.campo{
+  padding: 10px 15px;
+  width: 250px;
+  border: solid 2px #AFAFAF;
+  border-radius: 5px;
+  background-color: #DADADA;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.login img{
+  margin-bottom: 10px;
+}
+
+.botao{
+  padding: 10px 30px;
+  background-color: #3333ff;
+  border: solid 2px #000099;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.botao:hover{
+  background-color: #1a1aff;
+}
