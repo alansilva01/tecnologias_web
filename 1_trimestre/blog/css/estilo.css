@@ -44,3 +44,43 @@ body{
 .botao:hover{
   background-color: #1a1aff;
 }
+
+.menu{
+  padding-left: 10px;
+  padding-right: 5px;
+  float: left;
+  background-color: #cacaca;
+}
+
+.corpo{
+  padding-left: 10px;
+  float: left;
+  background-color: #dbdbdb;
+}
+
+.menu h1{
+  padding-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  }
+
+.menu h2, .menu h3{
+  padding-top: 50px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.menu li, .menu p{
+  font-family: 'Raleway', sans-serif;
+}
+
+.menu li:hover{
+  background-color: #aaa;
+  color: white;
+}
+
+.menu li a{
+  color: black;
+}
+
+.menu ul{
+  margin-left: 20px;
+}
